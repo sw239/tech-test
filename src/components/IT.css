@@ -1,0 +1,70 @@
+.main .left, .main .right{
+	height: 700px;
+	text-align: center;
+}
+.left{
+	width:49%;
+	float:left;
+}
+.right{
+	width:49%;
+	float:right;
+}
+.clear{
+	clear:both;
+}
+.photo {    
+    height: 600px;
+    width: 60%;
+    margin-top: 10%;	
+ }
+ .title{
+	line-height: 50px;
+	color: #000000;
+	font-size: 30px;
+	text-align: left;
+	margin-left: 5%;
+ }
+ .txt{
+	line-height: 50px;
+	color: #000000;
+	font-size: 18px;
+	text-align: left;
+	margin-left: 5%;
+ }
+ .event {    
+    height: 600px;
+    width: 90%;
+    margin-top: 5%;
+ }
+ .etxt{
+	line-height: 50px;
+	color: #FF9600;
+	font-size: 24px;
+	text-align: left;
+	margin-left: 5%;
+ }
+button {
+    border: 0;
+    border-radius: 10px;
+    background: #2ec4b6;
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 30px;
+    outline: none;
+    position: relative;
+    transition: border-radius 1s;
+    -webkit-transition: border-radius 1s;
+}             
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	cursor:pointer
+}
+a {
+  color: #B0ACAC;
+}
+a:hover {
+   color: #FFF
+}
